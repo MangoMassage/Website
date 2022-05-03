@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    background: #4e5b7b;
+}
+
+.frame {
+    height: 100%;      /* equals max image height */
+    width: 100%;
+    white-space: nowrap;
+    text-align: center; margin: 1em 0;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+    max-height: 100%;
+    max-width: 100%;
+}
