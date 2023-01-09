@@ -1,15 +1,6 @@
 body {
     height: 100vh;
-    /*background: #4e5b7b;*/
-    background-image: url('background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center; 
-}
-
-.heading-1 {
-    font-size 10em;
+    background: #4e5b7b;
 }
 
 .frame {
@@ -25,140 +16,8 @@ body {
     vertical-align: middle;
 }
 
-.banner {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 6em;
-    /*plain*/
-    background: #ffe5ef;
-    /*gradient*/
-    #background: rgb(255,223,238);
-    #background: linear-gradient(180deg, rgba(255,223,238,1) 0%, rgba(255,189,222,1) 100%);
-    /*lighter top*/
-    #background: linear-gradient(180deg, rgba(255,233,243,1) 0%, rgba(255,189,222,1) 100%);
-    /*darker bottom*/
-    #background: linear-gradient(180deg, rgba(255,223,238,1) 0%, rgba(255,189,222,1) 84%, rgba(255,159,207,1) 100%);
-    /*both*/
-    background: linear-gradient(180deg, rgba(255,233,243,1) 0%, rgba(255,189,222,1) 84%, rgba(255,159,207,1) 100%);
-    #background: linear-gradient(180deg, rgba(255,227,240,1) 0%, rgba(255,186,220,1) 84%, rgba(255,159,207,1) 100%);
-    #background: linear-gradient(180deg, rgba(255,219,233,1) 0%, rgba(255,160,187,1) 84%, rgba(255,109,153,1) 100%);
-    #background: linear-gradient(180deg, rgba(255,230,219,1) 0%, rgba(255,164,160,1) 84%, rgba(255,109,109,1) 100%);
-    #background: linear-gradient(180deg, rgba(255,219,235,1) 0%, rgba(255,151,172,1) 84%, rgba(255,125,126,1) 100%);
-    #background: linear-gradient(180deg, rgba(255,219,235,1) 0%, rgba(255,169,187,1) 84%, rgba(255,141,142,1) 100%);
-    background: linear-gradient(180deg, rgba(255,219,235,1) 0%, rgba(255,169,197,1) 84%, rgba(255,141,150,1) 100%);
-    padding-right: 0.5em;
-    padding-left: 0.5em;
-    z-index: 1;
-}
-
-.blurb {
-    position: fixed;
-    top: 37%;
-    width: 30%;
-    margin-left: 35%;
-}
-
-.blurbHead {
-    font-size: 3em;
-    font-family: 'Gabriela', serif;
-    font-style: italic;
-    text-align: center;
-    text-shadow: -1px 1px 0 #ffe5ef,
-				          1px 1px 0 #ffe5ef,
-                  1px -1px 0 #ffe5ef,
-                  -1px -1px 0 #ffe5ef,
-                  2px 2px 2px #000;
-    color: #333333;
-}
-
-.blurbBody {
-    font-size: 0.8em;
-    /*background: #ffffff*/;
-    #background-color: rgba(255, 255, 255, .45);
-    #backdrop-filter: blur(2px);
-    
-    background: rgba(255, 255, 255, 0.35);
-    #border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(2px);
-    border: 1px solid rgba(255, 255, 255, 0.30);
-
-    padding: 0.3em;
-}
-
-.details {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    min-height: calc(100% - 6em);
-    width: 100%;
-    #background: rgba(78, 91, 123, .93);
-    #background: rgba(191, 203, 227, .80);
-    #background: rgba(240, 235, 235, .80);
-    background: rgba(238, 230, 255, .80);
-    backdrop-filter: blur(10px);
-    padding-top: 0.5em;
-    padding-right: 1em;
-    padding-left: 1em;
-}
-
-.contact {
-    font-size: 2.5em;
-    text-align: right;
-    line-height: 1.1; 
-    font-family: 'Nunito', sans-serif;
-}
-
 img {
     vertical-align: middle;
     max-height: 100%;
     max-width: 100%;
 }
-
-.mangologo {
-    height: 7em;
-}
-
-.heading {
-    font-family: 'Gabriela', serif;
-    font-size: 4.5em;
-    color: #333333;
-}
-
-.logo {
-    height: 4em;
-}
-
-.fb-page {
-    height 30em;
-}
-
-.services {
-    #width 100%;
-}
-
-.service {
-    margin: 1em 1em 1em 1em;
-    padding: .5em 1em .5em 1em;
-    background: rgb(238, 230, 255);
-    border: 1px solid rgba(0, 0, 0, 0.30);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    max-width: 55em;
-}
-
-.price {
-    min-width: 13em;
-    padding-left: 1em;
-}
-
-a:link { text-decoration: none; color: #333333;}
-
-a:visited { text-decoration: none; color: #333333;}
-
-a:hover { text-decoration: none; color: #333333;}
-
-a:active { text-decoration: none; color: #333333;}
-
